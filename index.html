@@ -1,1 +1,83 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Master Inventory</title>
+<style>
+  :root{
+    --navy:#0F2B46;
+    --blue:#1A56DB;
+    --ink:#1C2733;
+    --muted:#5B6B7C;
+    --line:#DDE4EA;
+    --tint:#F4F7FA;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:var(--tint);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
+  .card{
+    max-width:420px;
+    width:100%;
+    margin:24px;
+    padding:40px 32px;
+    background:#fff;
+    border-radius:16px;
+    box-shadow:0 1px 3px rgba(15,43,70,0.08), 0 8px 24px rgba(15,43,70,0.06);
+    text-align:center;
+  }
+  h1{
+    margin:0 0 8px;
+    font-size:22px;
+    color:var(--navy);
+  }
+  p.tagline{
+    margin:0 0 28px;
+    color:var(--muted);
+    font-size:15px;
+  }
+  a.btn{
+    display:block;
+    text-decoration:none;
+    padding:13px 20px;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:600;
+    margin-bottom:12px;
+  }
+  a.btn.primary{
+    background:var(--blue);
+    color:#fff;
+  }
+  a.btn.secondary{
+    background:var(--tint);
+    color:var(--navy);
+    border:1px solid var(--line);
+  }
+  .contact{
+    margin-top:24px;
+    font-size:13px;
+    color:var(--muted);
+  }
+  .contact a{color:var(--blue)}
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Master Inventory</h1>
+    <p class="tagline">Gestão patrimonial 100% offline</p>
+    <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.masterinventory.app">Ver no Google Play</a>
+    <a class="btn secondary" href="https://masterinventorymobile-sketch.github.io/master-inventory-privacidade/">Política de Privacidade</a>
+    <p class="contact">Contato: <a href="mailto:masterinventorymobile@gmail.com">masterinventorymobile@gmail.com</a></p>
+  </div>
+</body>
+</html>
