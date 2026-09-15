@@ -5,134 +5,236 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Política de Privacidade — Orbix Survive</title>
 <style>
-  :root { color-scheme: dark; }
-  body {
-    margin:0; padding:32px 20px 72px;
-    background:#0b1220; color:#dbe7f5;
-    font:16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  :root{
+    --bg:#0b1220; --card:#111c2e; --line:#1e2e47;
+    --txt:#dce8f7; --dim:#93aac7; --accent:#4fb8ff;
   }
-  .wrap { max-width:720px; margin:0 auto; }
-  h1 { font-size:28px; margin:0 0 6px; color:#eafaff; letter-spacing:.5px; }
-  h2 { font-size:19px; margin:34px 0 10px; color:#9fd0ff; }
-  .sub { color:#7f9dc0; font-size:14px; margin-bottom:28px; }
-  p, li { color:#c6d6ea; }
-  ul { padding-left:20px; }
-  a { color:#5ab9ff; }
-  .card { background:#111c2e; border:1px solid #22364f; border-radius:12px; padding:18px 20px; margin:22px 0; }
-  strong { color:#eafaff; }
-  footer { margin-top:44px; padding-top:18px; border-top:1px solid #1d2c42; color:#6f89a8; font-size:14px; }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:24px 16px 64px;
+    background:var(--bg); color:var(--txt);
+    font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  main{max-width:760px; margin:0 auto}
+  header{border-bottom:1px solid var(--line); padding-bottom:20px; margin-bottom:28px}
+  h1{font-size:26px; margin:0 0 6px; letter-spacing:.5px}
+  .sub{color:var(--dim); font-size:14px; margin:0}
+  h2{font-size:18px; margin:32px 0 10px; color:var(--accent)}
+  h3{font-size:15px; margin:20px 0 6px; color:var(--txt)}
+  p, li{color:var(--txt)}
+  ul{padding-left:20px}
+  li{margin:6px 0}
+  .box{
+    background:var(--card); border:1px solid var(--line);
+    border-radius:10px; padding:14px 18px; margin:18px 0;
+  }
+  .box p{margin:6px 0; font-size:15px}
+  a{color:var(--accent)}
+  table{width:100%; border-collapse:collapse; margin:14px 0; font-size:15px}
+  th, td{text-align:left; padding:9px 10px; border-bottom:1px solid var(--line)}
+  th{color:var(--dim); font-weight:600; font-size:13px; text-transform:uppercase; letter-spacing:.4px}
+  footer{
+    margin-top:44px; padding-top:18px; border-top:1px solid var(--line);
+    color:var(--dim); font-size:14px;
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
+<main>
 
-  <h1>Política de Privacidade</h1>
-  <div class="sub">Orbix Survive · Última atualização: 28 de agosto de 2026</div>
+<header>
+  <h1>Política de Privacidade — Orbix Survive</h1>
+  <p class="sub">Última atualização: 15 de setembro de 2026</p>
+</header>
 
-  <p>Esta política descreve como o aplicativo <strong>Orbix Survive</strong> ("o jogo") trata
-  informações. Ela vale para a versão distribuída na Google Play sob o identificador
-  <strong>com.master.orbixsurvive</strong>.</p>
+<p>
+  Esta política descreve como o aplicativo <strong>Orbix Survive</strong> trata informações dos
+  jogadores. O app é desenvolvido e mantido por <strong>Welson Mendes</strong> (Master-dev),
+  em São Luís, Maranhão, Brasil.
+</p>
 
-  <div class="card">
-    <strong>Resumo:</strong> o jogo não pede cadastro nem coleta dados pessoais diretamente.
-    A única exceção é a publicidade: o jogo exibe anúncios opcionais, fornecidos pelo Google
-    AdMob, que podem coletar identificadores do dispositivo.
-  </div>
-
-  <h2>1. Dados que não coletamos</h2>
-  <p>O jogo não solicita cadastro, login, e-mail, número de telefone ou qualquer identificação.
-  Nós não coletamos:</p>
-  <ul>
-    <li>nome, e-mail ou dados de contato;</li>
-    <li>localização;</li>
-    <li>contatos, fotos, arquivos ou agenda;</li>
-    <li>dados de uso ou telemetria próprios.</li>
-  </ul>
-  <p>Não mantemos servidores próprios e não recebemos nem armazenamos nenhuma informação
-  sua.</p>
-
-  <h2>2. Informações armazenadas no seu aparelho</h2>
-  <p>Para funcionar, o jogo guarda algumas preferências <strong>somente no armazenamento local
-  do seu dispositivo</strong>. Essas informações nunca são enviadas a nós:</p>
-  <ul>
-    <li>sua melhor pontuação (recorde);</li>
-    <li>itens cosméticos escolhidos (nave, rastro, tema e afins);</li>
-    <li>preferências de áudio (música, efeitos e trilha selecionada);</li>
-    <li>se você possui uma vida extra guardada.</li>
-  </ul>
-  <p>Ao desinstalar o aplicativo ou limpar os dados dele nas configurações do Android,
-  essas informações são apagadas permanentemente.</p>
-
-  <h2>3. Publicidade</h2>
-  <p>O jogo exibe <strong>anúncios recompensados</strong> fornecidos pelo
-  <strong>Google AdMob</strong>. Esses anúncios são sempre <strong>opcionais e iniciados por
-  você</strong>: eles só aparecem quando você toca no botão para assistir a um anúncio e
-  ganhar uma vida extra. O jogo não exibe banners, anúncios de abertura nem anúncios
-  automáticos entre partidas.</p>
-
-  <p>Para exibir e medir anúncios, o AdMob pode coletar e processar:</p>
-  <ul>
-    <li><strong>ID de publicidade do Android</strong> (identificador que você pode
-        redefinir ou excluir nas configurações do aparelho);</li>
-    <li>identificadores do dispositivo e informações técnicas, como modelo, sistema
-        operacional e idioma;</li>
-    <li>endereço IP e localização aproximada dele derivada;</li>
-    <li>dados de interação com os anúncios (exibições, cliques).</li>
-  </ul>
-
-  <p>Esse tratamento é feito pelo Google, não por nós. Para entender como o Google usa esses
-  dados, consulte a
-  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de
-  Privacidade do Google</a> e a página
-  <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Como
-  o Google usa informações de sites ou apps de nossos parceiros</a>.</p>
-
-  <h2>4. Suas escolhas quanto à publicidade</h2>
-  <ul>
-    <li><strong>Não assistir:</strong> os anúncios são opcionais. Você pode jogar o jogo
-        inteiro, com todos os recursos, sem assistir a nenhum anúncio.</li>
-    <li><strong>Redefinir ou excluir o ID de publicidade:</strong> em
-        <em>Configurações → Google → Anúncios</em> no seu aparelho Android.</li>
-    <li><strong>Desativar a personalização de anúncios:</strong> disponível nas mesmas
-        configurações do Android.</li>
-  </ul>
-
-  <h2>5. Compras no aplicativo</h2>
-  <p>Na versão atual, o Orbix Survive <strong>não oferece compras dentro do aplicativo</strong>.
-  Todos os recursos do jogo estão disponíveis gratuitamente. Caso compras sejam adicionadas no
-  futuro, esta política será atualizada antes do lançamento da nova versão.</p>
-
-  <h2>6. Crianças</h2>
-  <p>O jogo não é direcionado a crianças menores de 13 anos e não coleta intencionalmente
-  informações de menores de idade. O público-alvo declarado na Google Play é de 13 anos ou
-  mais.</p>
-
-  <h2>7. Serviços de terceiros</h2>
-  <p>O jogo utiliza os seguintes serviços de terceiros:</p>
-  <ul>
-    <li><strong>Google AdMob</strong> — exibição de anúncios recompensados;</li>
-    <li><strong>Google Play</strong> — distribuição, download e atualizações.</li>
-  </ul>
-  <p>O tratamento de dados por esses serviços é regido pelas políticas do Google, fora do
-  controle deste aplicativo.</p>
-
-  <h2>8. Segurança</h2>
-  <p>Não mantemos servidores nem bancos de dados com informações de usuários. Os dados de jogo
-  ficam apenas no seu aparelho, e os dados de publicidade são processados diretamente pela
-  infraestrutura do Google.</p>
-
-  <h2>9. Alterações nesta política</h2>
-  <p>Se esta política mudar, a nova versão será publicada nesta mesma página, com a data de
-  atualização revisada no topo.</p>
-
-  <h2>10. Contato</h2>
-  <p>Dúvidas sobre esta política podem ser enviadas para:
-  <a href="mailto:masterinventorymobile@gmail.com">masterinventorymobile@gmail.com</a></p>
-
-  <footer>
-    Orbix Survive — desenvolvido de forma independente por Welson Mendes.
-  </footer>
-
+<div class="box">
+  <p><strong>Em resumo:</strong> o Orbix Survive não pede cadastro, não coleta seu nome, e-mail
+  ou telefone, e não armazena dados pessoais em servidores próprios. O progresso do jogo fica
+  salvo apenas no seu aparelho. O app exibe anúncios e oferece compras opcionais, e esses
+  serviços são operados pelo Google.</p>
 </div>
+
+<h2>1. Informações que o app coleta diretamente</h2>
+
+<p>
+  <strong>Nenhuma.</strong> O Orbix Survive não solicita cadastro, login, nome, e-mail, telefone,
+  localização precisa, contatos, fotos, microfone ou câmera.
+</p>
+
+<h2>2. Dados armazenados no seu aparelho</h2>
+
+<p>
+  O jogo guarda, no armazenamento local do próprio dispositivo, as seguintes informações, que
+  nunca são enviadas ao desenvolvedor:
+</p>
+
+<ul>
+  <li>Melhor pontuação e melhor pontuação da temporada</li>
+  <li>Patente atual e insígnias conquistadas</li>
+  <li>Itens cosméticos possuídos e equipados</li>
+  <li>Preferências de áudio, efeitos visuais e alertas</li>
+</ul>
+
+<p>
+  Esses dados são apagados ao desinstalar o app ou ao limpar os dados do aplicativo nas
+  configurações do Android.
+</p>
+
+<h2>3. Anúncios</h2>
+
+<p>
+  O Orbix Survive exibe anúncios fornecidos pelo <strong>Google AdMob</strong>. Os anúncios são
+  opcionais: aparecem apenas quando o jogador escolhe assistir a um vídeo para receber uma vida
+  extra.
+</p>
+
+<p>
+  Para exibir e medir anúncios, o Google pode coletar e processar:
+</p>
+
+<ul>
+  <li>Identificador de publicidade do dispositivo (Advertising ID)</li>
+  <li>Endereço IP e localização aproximada derivada dele</li>
+  <li>Informações técnicas do dispositivo, como modelo, sistema operacional e idioma</li>
+  <li>Interações com os anúncios exibidos</li>
+</ul>
+
+<p>
+  Esses dados são coletados e tratados diretamente pelo Google, conforme a
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de
+  Privacidade do Google</a>. O desenvolvedor não tem acesso a dados individuais de jogadores —
+  apenas a estatísticas agregadas de desempenho dos anúncios.
+</p>
+
+<h3>Como limitar a personalização de anúncios</h3>
+
+<p>
+  No Android, acesse <strong>Configurações → Google → Anúncios</strong> para redefinir seu
+  identificador de publicidade ou desativar a personalização.
+</p>
+
+<h2>4. Compras no aplicativo</h2>
+
+<p>
+  O Orbix Survive oferece <strong>compras opcionais</strong> de itens cosméticos, processadas
+  pelo <strong>Google Play Faturamento</strong>. Os itens alteram apenas a aparência da nave,
+  dos efeitos e dos cenários — <strong>não concedem vantagem competitiva</strong> nem alteram a
+  dificuldade do jogo.
+</p>
+
+<table>
+  <tr><th>Produto</th><th>Preço</th></tr>
+  <tr><td>Frota Completa</td><td>R$ 9,99</td></tr>
+  <tr><td>Rastros Neon</td><td>R$ 7,99</td></tr>
+  <tr><td>Mundos</td><td>R$ 9,99</td></tr>
+  <tr><td>Desbloquear Tudo</td><td>R$ 19,99</td></tr>
+</table>
+
+<p>
+  Todas as compras são de <strong>pagamento único</strong>, sem assinatura ou cobrança
+  recorrente. O pagamento é processado inteiramente pelo Google: o desenvolvedor
+  <strong>não recebe, não armazena e não tem acesso</strong> a dados de cartão de crédito ou de
+  qualquer forma de pagamento.
+</p>
+
+<p>
+  A posse dos itens comprados fica vinculada à sua conta Google e pode ser restaurada a qualquer
+  momento pelo botão <strong>RESTAURAR COMPRAS</strong>, dentro da loja do jogo, inclusive após
+  reinstalar o app ou trocar de aparelho.
+</p>
+
+<h3>Reembolso</h3>
+
+<p>
+  Pedidos de reembolso seguem as políticas do Google Play e devem ser solicitados diretamente
+  pela Play Store ou pelo suporte do Google.
+</p>
+
+<h2>5. Compartilhamento de dados</h2>
+
+<p>
+  O desenvolvedor <strong>não vende, não aluga e não compartilha</strong> dados de jogadores com
+  terceiros. O único compartilhamento que ocorre é com os serviços do Google necessários para o
+  funcionamento do app:
+</p>
+
+<table>
+  <tr><th>Serviço</th><th>Finalidade</th></tr>
+  <tr><td>Google AdMob</td><td>Exibição e medição de anúncios</td></tr>
+  <tr><td>Google Play Faturamento</td><td>Processamento de compras</td></tr>
+  <tr><td>Google Play Services</td><td>Distribuição e atualização do app</td></tr>
+</table>
+
+<p>Os dados são transmitidos por conexão criptografada.</p>
+
+<h2>6. Crianças</h2>
+
+<p>
+  O Orbix Survive é classificado como adequado para todas as idades, mas o público-alvo declarado
+  é de <strong>13 anos ou mais</strong>. O app não coleta intencionalmente dados de crianças
+  menores de 13 anos.
+</p>
+
+<p>
+  Recomendamos que pais e responsáveis ativem a
+  <strong>autenticação para compras</strong> na Play Store, para evitar aquisições não
+  autorizadas.
+</p>
+
+<h2>7. Seus direitos</h2>
+
+<p>
+  Como o app não mantém dados pessoais em servidores próprios, não há informações sob a guarda do
+  desenvolvedor para consultar, corrigir ou excluir.
+</p>
+
+<p>Para exercer direitos relacionados aos dados coletados pelos serviços do Google:</p>
+
+<ul>
+  <li><strong>Dados de publicidade:</strong> redefina ou exclua seu identificador em
+      Configurações → Google → Anúncios</li>
+  <li><strong>Dados de compras:</strong> acesse
+      <a href="https://myaccount.google.com" target="_blank" rel="noopener">myaccount.google.com</a></li>
+  <li><strong>Dados locais do jogo:</strong> limpe os dados do app nas configurações do Android</li>
+</ul>
+
+<p>
+  Esta política atende à Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018) e ao
+  Regulamento Geral de Proteção de Dados (GDPR), no que se aplica a um aplicativo que não coleta
+  dados pessoais diretamente.
+</p>
+
+<h2>8. Alterações nesta política</h2>
+
+<p>
+  Esta política pode ser atualizada para refletir mudanças no aplicativo ou na legislação. A data
+  da última atualização aparece no topo desta página. Alterações relevantes serão comunicadas nas
+  notas de versão do app na Google Play.
+</p>
+
+<h2>9. Contato</h2>
+
+<p>
+  Dúvidas sobre esta política ou sobre o tratamento de dados:
+</p>
+
+<div class="box">
+  <p><strong>Welson Mendes</strong> — Master-dev</p>
+  <p>E-mail: <a href="mailto:masterinventorymobile@gmail.com">masterinventorymobile@gmail.com</a></p>
+  <p>São Luís, Maranhão, Brasil</p>
+</div>
+
+<footer>
+  Orbix Survive · com.master.orbixsurvive<br>
+  © 2026 Welson Mendes. Todos os direitos reservados.
+</footer>
+
+</main>
 </body>
 </html>
